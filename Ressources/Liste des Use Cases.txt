@@ -1,0 +1,44 @@
+-- CLIENT --
+Créer un client
+Enregistrer une carte de fidélité
+
+-- FOURNISSEUR --
+Créer une commande fournisseur
+Créer un fournisseur
+Créer un catalogue produit fournisseur
+Modifier un fournisseur
+Consulter un fournisseur
+Consulter le catalogue fournisseur
+
+-- STOCK --
+Réceptionner une livraison
+Enregistrer un mouvement de stock
+Modifier une commande
+Consulter une commande
+Consulter les stocks par critères
+
+-- VENTE --
+Enregistrer une vente
+
+-- ARTICLE --
+Créer un article
+Modifier un article
+Consulter un article
+
+-- BANQUE --
+Payer une facture par virement automatique
+Consulter les virements
+
+-- PERSONNEL --
+Enregistrer un horaire de travail
+Consulter les informations d'un employé
+Mettre à jour les informations d'un employé
+Consulters les horaires
+
+-- ADMINISTRATION --
+Consulter les statistiques
+Consulter les factures
+
+
+
+
