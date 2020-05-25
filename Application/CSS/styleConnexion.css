@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: #228E46;
+  color : white;
+  font-family: 'Gotham Ultra';
+  font-size: 30px;
+}
+
+
+form{
+  width: 500px;
+  height: 400px;
+  border: 2px solid #9A6A54;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: white;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form #titre{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #00B050;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+form #btn_choix{
+  text-align: center;
+  color: #00B050;
+  margin-bottom: 20px;
+}
+
+form #btn_choix input{
+  border-radius: 10%;
+  border: 1px solid #9A6A54;
+  color: #00B050;
+  font-size: 20px;
+  width: 200px;
+  font-weight: bolder;
+}
+
+form #Nom{
+  text-align: left;
+  margin-left: 50px;
+  color: #00B050;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+form #Nom input{
+width: 400px;
+border-radius: 5%;
+border: 1px solid #9A6A54;
+height: 30px;
+}
+
+form #Mdp{
+  text-align: left;
+  margin-left: 50px;
+  color: #00B050;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+form #Mdp input{
+width: 400px;
+border-radius: 5%;
+border: 1px solid #9A6A54;
+height: 30px;
+}
+
+form #btn_valider{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form #btn_valider input{
+  border-radius: 10%;
+  border: 1px solid #9A6A54;
+  font-size: 20px;
+  color: #00B050;
+  height: 30px;
+  width: 200px;
+}
