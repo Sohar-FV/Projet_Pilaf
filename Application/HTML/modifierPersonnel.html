@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Société PILAF</title>
     <link rel="stylesheet" href="../CSS/fonts.css">
-    <link rel="stylesheet" href="../CSS/creerFournisseur.css">
+    <link rel="stylesheet" href="../CSS/modifierPersonnel.css">
 </head>
 <body>
     <header>
@@ -17,45 +17,40 @@
     </header>
 
     <div class="menu">
-        <h2>Fournisseurs ></h2>
+        <h2>Personnel ></h2>
+        <div class="bouton">
+            <a href="./creerPersonnel.html">Créer</a>
+        </div>
         <div class="bouton" id="creer">
-            <a href="./creerFournisseur.html">Créer</a>
+            <a href="./modifierPersonnel.html">Modifier</a>
         </div>
         <div class="bouton">
-            <a href="./modifierFournisseur.html">Modifier</a>
-        </div>
-        <div class="bouton">
-            <a href="./consulterFournisseur.html">Consulter</a>
+            <a href="./creerPersonnel.html">Consulter</a>
         </div>
     </div>
 
     <div class="formulaire">
-        <form action="./creerFournisseur.html" method="post">
+        <form action="./creerPersonnel.html" method="post">
+            <div id="recherche">
+                <label>Rechercher <br></label>
+                <input type="search" required>
+            </div>
             <div class="colonne">
                 <div id="identite">
-                    <h3>Informations de société</h3>
-                    <div id="type">
-                        <label>Type <br></label>
-                        <input type="search" list="types" required>
-                        <datalist id="types">
-                            <option value="SA"></option>
-                            <option value="SAS"></option>
-                            <option value="SARL"></option>
-                        </datalist>
+                    <h3>Informations d'identité</h3>
+                    <div id="civilite">
+                        <label>Civilité <br></label>
+                        <input type="checkbox" id="monsieur">
+                        <label for="monsieur">M.</label>
+                        <input type="checkbox" id="madame">
+                        <label for="madame">Mme.</label>
                     </div>
                     <div id="nom">
                         <label>Nom <br></label>
                         <input type="text" required>
                     </div>
-                    <div id="secteur">
-                        <label>Secteur <br></label>
-                        <input type="text" required>
-                    </div>
-                </div>
-                <div id="contact">
-                    <h3>Informations de contact</h3>
-                    <div id="nom_responsable">
-                        <label>Nom du contact <br></label>
+                    <div id="prenom">
+                        <label>Prénom <br></label>
                         <input type="text" required>
                     </div>
                     <div id="telephone">
@@ -65,6 +60,32 @@
                     <div id="mail">
                         <label>Adresse e-mail <br></label>
                         <input type="email" required>
+                    </div>
+                </div>
+                <div id="poste">
+                    <h3>Informations sur le poste</h3>
+                    <div id="poste_occupe">
+                        <label>Poste occupé <br></label>
+                        <input type="search" list="postes" required>
+                        <datalist id="postes">
+                            <option value="Directeur"></option>
+                            <option value="Secrétaire"></option>
+                            <option value="Directeur Commercial"></option>
+                            <option value="Caissier(-ère)"></option>
+                            <option value="Saisonnier"></option>
+                        </datalist>
+                    </div>
+                    <div id="duree">
+                        <label>Durée du contrat <br></label>
+                        <input type="text" required>
+                    </div>
+                    <div id="date_fin">
+                        <label>Date de fin (si CDD) <br></label>
+                        <input type="date">
+                    </div>
+                    <div id="salaire">
+                        <label>Salaire <br></label>
+                        <input type="number" required>
                     </div>
                 </div>
                 <div id="adresse">

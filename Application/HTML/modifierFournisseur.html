@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Société PILAF</title>
     <link rel="stylesheet" href="../CSS/fonts.css">
-    <link rel="stylesheet" href="../CSS/creerFournisseur.css">
+    <link rel="stylesheet" href="../CSS/modifierFournisseur.css">
 </head>
 <body>
     <header>
@@ -18,10 +18,10 @@
 
     <div class="menu">
         <h2>Fournisseurs ></h2>
-        <div class="bouton" id="creer">
+        <div class="bouton">
             <a href="./creerFournisseur.html">Créer</a>
         </div>
-        <div class="bouton">
+        <div class="bouton" id="creer">
             <a href="./modifierFournisseur.html">Modifier</a>
         </div>
         <div class="bouton">
@@ -31,6 +31,10 @@
 
     <div class="formulaire">
         <form action="./creerFournisseur.html" method="post">
+            <div id="recherche">
+                <label>Rechercher <br></label>
+                <input type="search" required>
+            </div>
             <div class="colonne">
                 <div id="identite">
                     <h3>Informations de société</h3>
