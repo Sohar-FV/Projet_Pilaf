@@ -13,7 +13,7 @@ header {
 
 .titre {
     font-family: 'Gotham Ultra';
-    font-size: 135px;
+    font-size: 120px;
     color: #ffffff;
     align-self: center;
 }
@@ -32,19 +32,19 @@ header img {
     flex-direction: row;
     margin-bottom: 20px;
     justify-content: center;
-    transform: translateY(10%);
+    margin-top: 15px;
 }
 
 .ligne:last-child {
     margin: 0;
 }
 
-a {
-    margin-right: 50px;
+.ligne a {
+    margin-right: 30px;
     border: 3px solid #9a6a54;
     border-radius: 25px;
-    width: 423px;
-    height: 340px;
+    width: 350px;
+    height: 250px;
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a:hover {
 
 .libelle {
     font-family: 'Gotham Medium';
-    font-size: 40px;
+    font-size: 30px;
     color: #00b050;
     text-transform: uppercase;
     text-align: center;
