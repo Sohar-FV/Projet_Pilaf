@@ -1,10 +1,10 @@
 -- CLIENT --
-Créer un client
+Créer un client X
 Enregistrer une carte de fidélité
 
 -- FOURNISSEUR --
 Créer une commande fournisseur
-Créer un fournisseur
+Créer un fournisseur X
 Créer un catalogue produit fournisseur
 Modifier un fournisseur
 Consulter un fournisseur
@@ -21,7 +21,7 @@ Consulter les stocks par critères
 Enregistrer une vente
 
 -- ARTICLE --
-Créer un article
+Créer un article X
 Modifier un article
 Consulter un article
 
@@ -30,6 +30,7 @@ Payer une facture par virement automatique
 Consulter les virements
 
 -- PERSONNEL --
+Créer un employé
 Enregistrer un horaire de travail
 Consulter les informations d'un employé
 Mettre à jour les informations d'un employé
