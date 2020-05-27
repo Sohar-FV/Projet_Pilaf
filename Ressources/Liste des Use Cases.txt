@@ -3,14 +3,14 @@ Créer un client X
 Enregistrer une carte de fidélité X
 
 -- FOURNISSEUR --
-Créer une commande fournisseur
 Créer un fournisseur X
 Créer un catalogue produit fournisseur
 Modifier un fournisseur X
-Consulter un fournisseur
-Consulter le catalogue fournisseur
+Consulter un fournisseur X
+Consulter le catalogue fournisseur X
 
 -- STOCK --
+Créer une commande fournisseur
 Réceptionner une livraison
 Enregistrer un mouvement de stock
 Modifier une commande
@@ -31,14 +31,14 @@ Consulter les virements
 
 -- PERSONNEL --
 Créer un employé X
-Enregistrer un horaire de travail
-Consulter les informations d'un employé 
+Enregistrer un horaire de travail X
+Consulter les informations d'un employé X
 Mettre à jour les informations d'un employé X
-Consulters les horaires
+Consulters les horaires X
 
 -- ADMINISTRATION --
-Consulter les statistiques
-Consulter les factures
+Consulter les statistiques X
+Consulter les factures X
 
 
 
