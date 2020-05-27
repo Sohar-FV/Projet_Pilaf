@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Société PILAF</title>
     <link rel="stylesheet" href="../CSS/fonts.css">
-    <link rel="stylesheet" href="../CSS/consulterFactures.css">
+    <link rel="stylesheet" href="../CSS/consulterCommandes.css">
 </head>
 <body>
     <header>
@@ -17,18 +17,34 @@
     </header>
 
     <div class="menu">
-        <h2>Administration ></h2>
+        <h2>Stock ></h2>
         <div class="bouton">
-            <a href="./consulterStatistiques.html">Statistiques</a>
+            <a href="./consulterStatistiques.html">Créer Commande</a>
+        </div>
+        <div class="bouton">
+            <a href="./consulterFactures.html">Modifier commande</a>
         </div>
         <div class="bouton" id="creer">
-            <a href="./consulterFactures.html">Factures</a>
+            <a href="./consulterCommandes.html">Consulter Commande</a>
+        </div>
+        <div class="bouton">
+            <a href="./consulterStatistiques.html">Réceptionner Livraison</a>
+        </div>
+        <div class="bouton">
+            <a href="./consulterStatistiques.html">Mouvement Stock</a>
+        </div>
+        <div class="bouton">
+            <a href="./consulterStock.html">Consulter Stock</a>
         </div>
     </div>
 
     <div class="ligne">
         <div class="recherche">
-            <label>Rechercher par numéro <br></label>
+            <label>Rechercher par numéro de commande<br></label>
+            <input type="search">
+        </div>
+        <div class="recherche">
+            <label>Rechercher par numéro de facture<br></label>
             <input type="search">
         </div>
         <div class="recherche">
@@ -45,20 +61,31 @@
     <table>
         <thead>
             <tr>
-                <th>Numéro</th>
+                <th>Numéro de commande</th>
+                <th>Numéro de facture</th>
                 <th>Fournisseur</th>
                 <th>Date</th>
                 <th>Montant (HT)</th>
                 <th>Montant (TTC)</th>
+                <th>Statut de la commande</th>
             </tr>
         </thead>
         <tbody>
             <tr>
+                <td>0214</td>
                 <td>0526</td>
                 <td>Biodis</td>
                 <td>27/05/2020</td>
                 <td>500</td>
                 <td>600</td>
+                <td>
+                    <select>
+                        <option>En traitement</option>
+                        <option>En livraison</option>
+                        <option>Reçu</option>
+                    </select>
+
+                </td>
             </tr>
         </tbody>
     </table>
