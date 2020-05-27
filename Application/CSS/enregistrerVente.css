@@ -107,12 +107,17 @@ input {
   text-align: center;
 }
 
-#btn_enreg input {
-  font-size: 20px;
-  color: #00B050;
+.bouton {
+  align-self: center;
+  border: 3px solid #9a6a54;
+  border-radius: 25px;
+  width: 150px;
+  text-align: center;
 }
 
-form #btn_client input {
+.bouton a {
+  text-decoration: none;
+  font-family: 'Gotham Medium';
   color: #00B050;
-  margin-left: : 10px;
+  font-size: 20px;
 }
