@@ -1,12 +1,12 @@
 -- CLIENT --
 Créer un client X
-Enregistrer une carte de fidélité
+Enregistrer une carte de fidélité X
 
 -- FOURNISSEUR --
 Créer une commande fournisseur
 Créer un fournisseur X
 Créer un catalogue produit fournisseur
-Modifier un fournisseur
+Modifier un fournisseur X
 Consulter un fournisseur
 Consulter le catalogue fournisseur
 
@@ -22,18 +22,18 @@ Enregistrer une vente
 
 -- ARTICLE --
 Créer un article X
-Modifier un article
-Consulter un article
+Modifier un article X
+Consulter un article X
 
 -- BANQUE --
 Payer une facture par virement automatique
 Consulter les virements
 
 -- PERSONNEL --
-Créer un employé
+Créer un employé X
 Enregistrer un horaire de travail
-Consulter les informations d'un employé
-Mettre à jour les informations d'un employé
+Consulter les informations d'un employé 
+Mettre à jour les informations d'un employé X
 Consulters les horaires
 
 -- ADMINISTRATION --

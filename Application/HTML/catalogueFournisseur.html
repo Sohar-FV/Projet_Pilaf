@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Société PILAF</title>
+    <link rel="stylesheet" href="../CSS/fonts.css">
+    <link rel="stylesheet" href="../CSS/catalogueFournisseur.css">
+</head>
+<body>
+    <header>
+        <h1 class="titre">Société PILAF</h1>
+        <div class="icons">
+            <a href="./menu.html"><img src="../Images/home-with-hearth.png" alt="Retour" title="Menu Principal"></a>    
+            <a href="../index.html"><img src="../Images/black-user-shape.png" alt="Déconnexion" title="Déconnexion"></a>
+        </div>
+    </header>
+
+    <div class="menu">
+        <h2>Fournisseurs ></h2>
+        <div class="bouton">
+            <a href="./creerFournisseur.html">Créer</a>
+        </div>
+        <div class="bouton">
+            <a href="./modifierFournisseur.html">Modifier</a>
+        </div>
+        <div class="bouton">
+            <a href="./consulterFournisseur.html">Consulter</a>
+        </div>
+        <div class="bouton" id="creer">
+            <a href="./catalogueFournisseur.html">Catalogue</a>
+        </div>
+    </div>
+
+    <div id="recherche">
+        <label>Rechercher <br></label>
+        <input type="search" required>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Numéro</th>
+                <th>Nom</th>
+                <th>Type</th>
+                <th>Provenance</th>
+                <th>Prix Unitaire</th>
+                <th>Ajouter à la commande</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0254</td>
+                <td>Fraise</td>
+                <td>Fruit</td>
+                <td>France</td>
+                <td>3.50€</td>
+                <td><a href="./creerCommandeFournisseur.html"><img src="../Images/plus.png" alt="Ajouter" title="Ajouter à la commande"></a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
