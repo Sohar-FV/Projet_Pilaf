@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Société PILAF</title>
     <link rel="stylesheet" href="../CSS/fonts.css">
-    <link rel="stylesheet" href="../CSS/consulterCommandes.css">
+    <link rel="stylesheet" href="../CSS/consulterStock.css">
 </head>
 <body>
     <header>
@@ -24,10 +24,10 @@
         <div class="bouton">
             <a href="./modifierCommande.html">Modifier commande</a>
         </div>
-        <div class="bouton" id="creer">
+        <div class="bouton">
             <a href="./consulterCommandes.html">Consulter Commande</a>
         </div>
-        <div class="bouton">
+        <div class="bouton" id="creer">
             <a href="./receptionnerLivraison.html">Réceptionner Livraison</a>
         </div>
         <div class="bouton">
@@ -40,20 +40,16 @@
 
     <div class="ligne">
         <div class="recherche">
-            <label>Rechercher par numéro de commande<br></label>
+            <label>Rechercher par numéro de produit<br></label>
             <input type="search">
         </div>
         <div class="recherche">
-            <label>Rechercher par numéro de facture<br></label>
+            <label>Rechercher par nom<br></label>
             <input type="search">
         </div>
         <div class="recherche">
-            <label>Rechercher par fournisseur <br></label>
+            <label>Rechercher par type <br></label>
             <input type="search">
-        </div>
-        <div class="recherche">
-            <label>Rechercher par date <br></label>
-            <input type="date">
         </div>
     </div>
     
@@ -64,10 +60,9 @@
                 <th>Numéro de commande</th>
                 <th>Numéro de facture</th>
                 <th>Fournisseur</th>
-                <th>Date</th>
-                <th>Montant (TTC)</th>
-                <th>Récapitulatif</th>
-                <th>Statut de la commande</th>
+                <th>Date de commande</th>
+                <th>Date de livraison</th>
+                <th>Ajout au stock</th>
             </tr>
         </thead>
         <tbody>
@@ -76,18 +71,8 @@
                 <td>0526</td>
                 <td>Biodis</td>
                 <td>27/05/2020</td>
-                <td>600</td>
-                <td>
-                    <a href="#"><img src="../Images/1200px-PDF_file_icon.svg.webp" alt="PDF" title="Récapitulatif en PDF"></a>
-                </td>
-                <td>
-                    <select>
-                        <option>En traitement</option>
-                        <option>En livraison</option>
-                        <option>Reçu</option>
-                    </select>
-
-                </td>
+                <td>27/05/2020</td>
+                <td><a href="./enregistrerMouvementStock.html"><img src="../Images/plus.png" alt="Ajouter" title="Ajouter les produits au stock"></a></td>
             </tr>
         </tbody>
     </table>
