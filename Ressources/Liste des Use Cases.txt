@@ -11,8 +11,8 @@ Consulter le catalogue fournisseur X
 
 -- STOCK --
 Créer une commande fournisseur x
-Réceptionner une livraison
-Enregistrer un mouvement de stock
+Réceptionner une livraison X
+Enregistrer un mouvement de stock X
 Modifier une commande X
 Consulter une commande X
 Consulter les stocks par critères X
