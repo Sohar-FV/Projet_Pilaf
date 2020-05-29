@@ -37,7 +37,6 @@ header img {
     flex-direction: row;
     margin-bottom: 20px;
     justify-content: center;
-    margin-top: 15px;
 }
 
 .ligne:last-child {
@@ -51,6 +50,7 @@ header img {
     width: 350px;
     height: 250px;
     text-decoration: none;
+    margin-top: 15px;
 }
 
 a:last-child {
