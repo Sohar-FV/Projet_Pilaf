@@ -1,32 +1,9 @@
--- CLIENT --
-Créer un client - FAIT
-Enregistrer une carte de fidélité - FAIT
-
--- FOURNISSEUR --
-Créer un fournisseur - FAIT
-Créer un catalogue produit fournisseur - FAIT
-Modifier un fournisseur - FAIT
-Consulter un fournisseur - FAIT
-Consulter le catalogue fournisseur - FAIT
-
--- STOCK --
-Réceptionner une livraison - FAIT
-Enregistrer un mouvement de stock - FAIT
-Créer une commande fournisseur - FAIT
-Modifier une commande - FAIT
-Consulter une commande - FAIT
-Consulter les stocks par critères - FAIT
-
--- VENTE --
-Enregistrer une vente - FAIT
-
--- ARTICLE --
-Créer un article  - FAIT
-Modifier un article  - FAIT
-Consulter un article  - FAIT
+-----------------
+-----A FAIRE-----
+-----------------
 
 -- BANQUE --
-Payer une facture par virement automatique
+
 Consulter les virements
 
 -- PERSONNEL --
@@ -35,9 +12,49 @@ Consulter les informations d'un employé
 Mettre à jour les informations d'un employé
 Consulters les horaires
 
+**** Les maquettes sont faites pour ces 6 là ****
+
+
+------------------
+-------FAIT-------
+------------------
+
+
+
+-- CLIENT --
+Créer un client - FAIT - MAQUETTE OK
+Enregistrer une carte de fidélité - FAIT - MAQUETTE OK
+
+-- FOURNISSEUR --
+Créer un fournisseur - FAIT - MAQUETTE OK
+Créer un catalogue produit fournisseur - FAIT - MAQUETTE OK (1 maquette pour 2)
+Modifier un fournisseur - FAIT - MAQUETTE OK
+Consulter un fournisseur - FAIT - MAQUETTE OK
+Consulter le catalogue fournisseur - FAIT - MAQUETTE OK (1 maquette pour 2)
+
+-- STOCK --
+Réceptionner une livraison - FAIT
+Enregistrer un mouvement de stock - FAIT
+Créer une commande fournisseur - FAIT - MAQUETTE OK
+Modifier une commande - FAIT - MAQUETTE OK
+Consulter une commande - FAIT
+Consulter les stocks par critères - FAIT
+
+-- VENTE --
+Enregistrer une vente - FAIT - MAQUETTE OK
+
+-- ARTICLE --
+Créer un article  - FAIT
+Modifier un article  - FAIT - MAQUETTE OK
+Consulter un article  - FAIT - MAQUETTE OK
+
 -- ADMINISTRATION --
-Consulter les statistiques
-Consulter les factures
+Consulter les statistiques - FAIT - MAQUETTE OK
+Consulter les factures - FAIT - MAQUETTE OK
+
+-- BANQUE --
+Payer une facture par virement automatique - FAIT - MAQUETTE OK (1 maquette pour 2)
+
 
 
 
