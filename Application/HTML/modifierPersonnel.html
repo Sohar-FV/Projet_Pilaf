@@ -79,12 +79,21 @@
                         </datalist>
                     </div>
                     <div id="duree">
-                        <label>Durée du contrat <br></label>
-                        <input type="text" required>
+                        <label>Type de contrat <br></label>
+                        <select>
+                            <option>CDI</option>
+                            <option>CDD</option>
+                            <option>Intérim</option>
+                            <option>Saisonnier</option>
+                        </select>
                     </div>
                     <div id="date_fin">
                         <label>Date de fin (si CDD) <br></label>
                         <input type="date">
+                    </div>
+                    <div class="duree_travail">
+                        <label>Durée hebdomadaire <br></label>
+                        <input type="number" required>
                     </div>
                     <div id="salaire">
                         <label>Salaire <br></label>
