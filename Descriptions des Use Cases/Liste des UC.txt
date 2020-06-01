@@ -2,18 +2,12 @@
 -----A FAIRE-----
 -----------------
 
--- BANQUE --
-
-Consulter les virements
-
--- PERSONNEL --
-Enregistrer un horaire de travail
-Consulter les informations d'un employé
-Mettre à jour les informations d'un employé
-Consulters les horaires
-
-**** Les maquettes sont faites pour ces 6 là ****
-
+Maquettes pour :
+Réceptionner une livraison
+Enregistrer un mouvement de stock
+Consulter les stocks par critères
+Consulter une commande
+Créer un article
 
 ------------------
 -------FAIT-------
@@ -54,8 +48,13 @@ Consulter les factures - FAIT - MAQUETTE OK
 
 -- BANQUE --
 Payer une facture par virement automatique - FAIT - MAQUETTE OK (1 maquette pour 2)
+Consulter les virements - FAIT - MAQUETTE OK (1 maquette pour 2)
 
-
+-- PERSONNEL --
+Mettre à jour les informations d'un employé - FAIT - MAQUETTE OK
+Consulter les informations d'un employé - FAIT - MAQUETTE OK
+Enregistrer un horaire de travail  - FAIT - MAQUETTE OK
+Consulters les horaires  - FAIT - MAQUETTE OK
 
 
 
