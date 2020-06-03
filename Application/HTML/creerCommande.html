@@ -46,31 +46,33 @@
 
         <div id="Ref">
           <label>Fournisseur : <br></label>
-          <input type="search" required name="ref_prod" title="Veuillez saisir la référence du produit">
+          <input type="search" required list="data" name="ref_prod" title="Veuillez saisir la référence du produit" placeholder="Biodis">
+          <datalist id="data">
+            <option>Biodis</option>
+          </datalist>
         </div>
         <div id="Lib">
-          <label>Numéro produit : <br></label>
-          <input type="text">
+          <label>Référence produit : <br></label>
+          <input type="text" placeholder="001">
         </div>
         <div id="Quantité">
-          <label>Nom du produit : <br></label>
-          <input type="text">
+          <label>Nom du produit : <br>Fraise</label>
         </div>
         <div id="PrixU">
           <label>Quantité : <br></label>
-          <input type="text">
+          <input type="number" min="1" placeholder="1">
         </div>
         <div id="PrixHT">
-          <label>Prix U. : <br></label>
-          <input type="text">
+          <label>Prix U. : <br>2.00</label>
         </div>
         <div id="PrixTTC">
-          <label>Prix HT : <br></label>
-          <input type="text">
+          <label>Prix HT : <br>2.00</label>
+        </div>
+        <div id="taux">
+          <label>TVA appliquée : <br>5,5%</label>
         </div>
         <div id="PrixTTC2">
-          <label>Prix TTC : <br></label>
-          <input type="text">
+          <label>Prix TTC : <br>2.11</label>
         </div>
 
       </div>
@@ -82,16 +84,13 @@
       <div id="ligneTotaux">
 
         <div id="TotHT">
-          <label>Total HT : <br></label>
-          <input type="text">
+          <label>Total HT : <br>2.00</label>
         </div>
         <div id="TotTaxes">
-          <label>Total Taxes : <br></label>
-          <input type="text">
+          <label>Total Taxes : <br>0.11</label>
         </div>
         <div id="TotTTC">
-          <label>Total TTC : <br></label>
-          <input type="text">
+          <label>Total TTC : <br>2.11</label>
         </div>
       </div>
       <div id="btn_enreg">

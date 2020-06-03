@@ -36,27 +36,46 @@
                     <h3>Informations du produit</h3>
                     <div id="ref">
                         <label>Référence <br></label>
-                        <input type="text" required>
+                        <input type="text" id="001" required>
                     </div>
                     <div id="type">
                         <label>Type <br></label>
-                        <input type="text" required>
+                        <select>  
+                            <option>Fruit</option>
+                            <option>Légume</option>
+                            <option>Produits secs</option>
+                            <option>Boisson</option>
+                        </select>
                     </div>
                     <div id="nom">
                         <label>Nom <br></label>
-                        <input type="text" required>
+                        <input type="text" placeholder="Fraise" required>
                     </div>
                     <div id="provenance">
                         <label>Provenance <br></label>
-                        <input type="text" required>
+                        <input type="text" placeholder="France" required>
                     </div>
                     <div id="prix">
                         <label>Prix Unitaire <br></label>
-                        <input type="number" required>
+                        <input type="number" placeholder="3.50" required>
+                    </div>
+                    <div id="taxe">
+                        <label>Taux de TVA appliqué <br></label>
+                        <select>
+                            <option>2,1%</option>
+                            <option>5,5%</option>
+                            <option>10%</option>
+                            <option>20%</option>
+                        </select>
                     </div>
                     <div id="stock">
-                        <label>Quantité livrée <br></label>
-                        <input type="number" required>
+                        <label>Quantité de conditionnement <br></label>
+                        <input type="number" placeholder="500" required>
+                        <select>
+                            <option>g</option>
+                            <option>unités</option>
+                            <option>kg</option>
+                        </select>
                     </div>
                     <div id="enregistrer">
                         <button type="submit">Enregistrer</button>
