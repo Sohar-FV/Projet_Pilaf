@@ -4,7 +4,7 @@ Réalisation d'une application web de gestion pour un magasin Bio. Le client est
 
 ## Démarrage
 
-Vous pouvez accéder à l'application via le lien suivant :  
+Vous pouvez accéder à l'application via le lien suivant : https://sohar-fv.github.io/Projet_Pilaf/ 
 
 ## Auteurs
 
