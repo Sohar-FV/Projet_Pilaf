@@ -1,6 +1,6 @@
 # Projet PILAF
 
-Réalisation d'une application web de gestion pour un magasin Bio. Le client est fictif et l'application a été réalisée uniquement en HTML/CSS et n'a pas vocation à être fonctionnelle. La majeure partie de cette réalisation tournait autour de la gestion de projet, vous retrouverez ainsi plusieurs éléments de documentation comme des Cas d'utilisation détaillés et un cahier des charges.
+Réalisation d'une application web de gestion pour un magasin Bio. Le client est fictif et l'application a été réalisée uniquement en HTML/CSS et n'a pas vocation à être fonctionnelle. La majeure partie de cette réalisation tournait autour de la gestion de projet, vous retrouverez ainsi plusieurs éléments de documentation comme des cas d'utilisation détaillés et un cahier des charges.
 
 ## Démarrage
 
